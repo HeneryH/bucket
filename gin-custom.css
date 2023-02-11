@@ -1,0 +1,22 @@
+/* <li class="menu-item menu-item__menu_link_content:ae919a87-e777-4aee-ae72-0bdd30190f79">
+      <a href="/civicrm" class="toolbar-icon toolbar-icon-menu-link-contentae919a87-e777-4aee-ae72-0bdd30190f79" 
+                                                                data-drupal-link-system-path="civicrm">CiviCRM Dash</a>
+   </li>
+*/
+
+
+/* Colour variables. */
+:root {
+  --black: #000;
+  --cello: #1f3357;
+  --flamenco: #ff7d08;
+  --lipstick: #bd0171;
+  --mine-shaft: #333;
+  --persian-green: #00a699;
+  --white: #fff;
+}
+
+.toolbar-icon-menu-link-contentae919a87-e777-4aee-ae72-0bdd30190f79::before {  
+  mask-image: url(sites/default/files/CiviCRM-icon-2019-gray-small.png);
+  mask-size: 70%;
+}
